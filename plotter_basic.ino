@@ -6,12 +6,6 @@
 
 #define SYSNAME "PLOTTER"           //Remember there is a class name  And a Instance name given by the database  They may or may not be the same.
 
-#ifdef TTGO
-#undef TTGO
-#endif
-
-#define TTGO1
-
 
 CStateObj bs;
 
@@ -24,9 +18,9 @@ void setup() {
   delay(500);
   
   //Wire.begin(); 
-  #ifdef TTGO1 
+  
    //initBoard();
-  #endif
+  
   
 
   // echoOff();  
